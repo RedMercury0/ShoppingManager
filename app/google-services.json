@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152884754386",
+    "project_id": "shoppingcart-e87c8",
+    "storage_bucket": "shoppingcart-e87c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152884754386:android:476c2c5142cf9d68573a0b",
+        "android_client_info": {
+          "package_name": "com.dorontayar.shoppingcart"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKDcSwYVVZoar9SUt__mqhpdQpUlcK_Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

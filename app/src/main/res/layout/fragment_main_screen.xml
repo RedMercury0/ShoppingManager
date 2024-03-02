@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.MainScreenFragment">
+
+    <!-- Display username -->
+    <TextView
+        android:id="@+id/textViewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="#123773"
+        android:gravity="center"
+        android:padding="16dp" />
+
+    <!-- Fragment container for the Products -->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentContainerViewMain"
+        android:name="com.dorontayar.shoppingcart.fragments.ProductsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
